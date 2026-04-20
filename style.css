@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: rgba(0,0,0,0.5);
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+header {
+    text-align: center;
+    padding: 50px;
+}
+.profile {
+    width: 150px;
+    border-radius: 50%;
+}
+.btn {
+    padding: 10px 20px;
+    background: #38bdf8;
+    color: black;
+    text-decoration: none;
+}
+section {
+    padding: 50px;
+}
+.bar {
+    background: #334155;
+    height: 10px;
+}
+.bar div {
+    height: 10px;
+    background: #38bdf8;
+}
+.projects {
+    display: flex;
+    gap: 20px;
+}
+.card {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+}
